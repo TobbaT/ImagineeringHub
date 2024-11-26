@@ -1,5 +1,0 @@
----
-silename: test
----
-
-INDEX
