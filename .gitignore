@@ -1,0 +1,35 @@
+# Ignore the .git directory
+.git
+
+# Ignore common editor backup files
+*~
+.*.swp
+*.swo
+.#*
+
+# Ignore Vim temporary files
+*.sw?
+*.un~
+Session.vim
+
+# Ignore Emacs temporary files
+.#*
+*#
+\#*#
+
+# Ignore VSCode temporary files
+.vscode/
+
+# Ignore JetBrains IDE temporary files
+.idea/
+
+# Ignore Sublime Text temporary files
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Atom temporary files
+.atom/
+
+# Ignore OS specific files
+Thumbs.db
+.DS_Store
