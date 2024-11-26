@@ -4,11 +4,11 @@ description: >- # Write a short description about your site
   Narrative experiments.
 
 baseurl: "/ImagineeringHub" # The subpath of your site, e.g., /blog. Use "" for root.
-
+githuburl: "https://github.com/TobbaT/ImagineeringHub"
 # If you're hosting on GitHub Pages, you can usually leave this blank.
 
 # Permalink Settings
-permalink: none 
+permalink: pretty 
 
 # Build Settings
 markdown: kramdown  # Use the Kramdown Markdown renderer (common choice)
