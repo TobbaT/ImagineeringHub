@@ -1,6 +1,9 @@
 # Ignore the .git directory
 .git
 
+# Jekyll
+_site/
+
 # Ignore common editor backup files
 *~
 .*.swp

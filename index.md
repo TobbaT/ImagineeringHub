@@ -3,9 +3,7 @@ layout: default
 title: Imagineering Hub
 ---
 
-# An Open Fiction Sandbox
-
-Welcome to the Imagineering Hub! You'll find some of my narrative experiments, feel free to enjoy, contribute (story, software, whatever) or give feedback! Most of this uses open licenses, see the full repo at https://github.com/TobbaT/ImagineeringHub .
+Welcome to the Imagineering Hub, an open fiction sandbox! You'll find some of my narrative experiments (AI-assisted), feel free to enjoy, contribute (story, software, whatever) or give feedback! Content and code are available under open licenses, [you can see the full repo](https://github.com/TobbaT/ImagineeringHub) for details.
 
 ## Table of Contents
 

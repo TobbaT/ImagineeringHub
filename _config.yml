@@ -1,0 +1,18 @@
+# Site Settings
+title: ImagineeringHub  # Replace with your site's actual title
+description: >- # Write a short description about your site
+  Narrative experiments.
+#baseurl: "" # The subpath of your site, e.g., /blog. Use "" for root.
+#url: "" # The base hostname & protocol for your site, e.g., http://example.com
+# If you're hosting on GitHub Pages, you can usually leave this blank.
+
+# Permalink Settings
+permalink: pretty 
+
+# Build Settings
+markdown: kramdown  # Use the Kramdown Markdown renderer (common choice)
+
+# Collections (if needed for grouping your stories, but probably not needed in your simple case)
+# collections:
+#   stories:
+#     output: true
