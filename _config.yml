@@ -2,8 +2,9 @@
 title: ImagineeringHub  # Replace with your site's actual title
 description: >- # Write a short description about your site
   Narrative experiments.
-url: https://tobbat.github.io/ImagineeringHub  # Include repo name
-baseurl: ""  #  baseurl should now be empty
+
+baseurl: "/ImagineeringHub" # The subpath of your site, e.g., /blog. Use "" for root.
+
 # If you're hosting on GitHub Pages, you can usually leave this blank.
 
 # Permalink Settings
