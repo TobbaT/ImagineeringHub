@@ -27,5 +27,8 @@ This is primarily a place to share and develop my experiments in stroytelling (u
 ```
 
 Each story has it's subfolder, with a development folder and a publication folder, both accessible in GithubPages.
+
+In order to be visible on the index, each story needs an index.md with a story_title and a summary.
+
 You can read the story as published and/or the develompent files which typically contain extra ideas and more info on the world.
 The development folder contains a readme, explaining how the story works from a technical standpoint, any css/js it needs, why, and how to use it.

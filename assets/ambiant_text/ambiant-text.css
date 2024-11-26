@@ -1,0 +1,25 @@
+.story-element {
+  z-index: 10;       /* Keep it above other elements */
+  color: black;
+}
+
+/* Ambient text base style */
+.ambiant-text {
+  position: absolute;
+  font-size: 1rem;       /* Slightly smaller than the main text */
+  color: rgba(0, 0, 0, 0.3); /* Discreet and semi-transparent */
+  transition: color 0.3s ease, z-index 0.3s ease; /* Smooth transition */
+  z-index: 5;            /* Lower z-index than the main text */
+}
+
+/* Avoid conflicts by making it invisible where overlapping with the main text */
+.story-element .ambiant-text {
+  mix-blend-mode: difference; /* Ensures it inverts or disappears where overlapped */
+}
+
+/* Bring to foreground and make it prominent on hover */
+.ambiant-text:hover {
+  color: rgba(0, 0, 0, 1); /* Increase visibility */
+  z-index: 20;               /* Bring above other elements */
+  background-color: rgba(255, 255, 255, 1);
+}

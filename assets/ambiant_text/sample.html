@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ambiant Text Example</title>
+        <link rel="stylesheet" href="ambiant-text.css"> 
+        <style>
+            body {
+              background-color: #f7f7f7; /* Light gray background for the entire page */
+              font-family: sans-serif; /* Choose a suitable font */
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              min-height: 100vh; /* Ensure body takes full viewport height */
+              margin: 0; /* Remove default body margin */
+            }
+        
+            h1 {
+              text-align: center; /* Center the heading */
+              margin-top: 40px; /* Add some space above the heading */
+            }
+        
+            .story-content {
+              width: 80%; /* Limit the width of the story content */
+              max-width: 800px; /* Set a maximum width */
+              margin: 20px auto; /* Center the container and add top/bottom margin */
+              padding: 20px; /* Add some padding inside the container */
+              background-color: #fff; /* White background for the story container */
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+            }
+        
+            .story-content p {
+              margin-bottom: 20px; /* Add space between paragraphs */
+              line-height: 1.6; /* Improve readability with line spacing */
+            }
+          </style>
+    </head>
+    <body>
+
+        <h1>My Story</h1>
+
+        <p class="story-element mysterious">
+            The old mansion stood on a desolate hill, shrouded in mist. Its windows were dark, like empty eyes staring into the abyss.
+        </p>
+
+        <p class="story-element key-moment">
+            A single raven perched on a withered branch, its gaze fixated on something hidden within the shadows.
+        </p>
+
+        <p class="story-element ominous">
+            The air grew cold, and a sense of unease settled over the surroundings. A distant whisper echoed through the trees.
+        </p>
+
+        <script> 
+         const ambiantTextConfigs = {
+             '.mysterious': {
+                 content: '<span style="font-style: italic; color: gray;">Secrets linger...</span>'
+             },
+             '.ominous': {
+                 content: () => `<div class="shadow-text">A darkness approaches...</div>` // Using a function for dynamic content
+             },
+             'p.key-moment': {
+                 content: '<span class="clue">Look closer.</span>'
+             }
+             // ... more configurations ...
+         };
+        </script>
+        <script src="ambiant-text.js" defer></script>
+    </body>
+</html>

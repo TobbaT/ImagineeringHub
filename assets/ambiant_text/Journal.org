@@ -1,0 +1,6 @@
+* [2024-11-25 Mon] Initial status 
+** DONE Positioning all over the place, rewrite
+relative position of the parent was messing things up
+** DONE Ambiat text should be visible.
+** DONE Ambiant text should be more visible when IT is hovered.
+Currently visibility changes on main text hover.
