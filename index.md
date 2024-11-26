@@ -11,7 +11,7 @@ Welcome to the Imagineering Hub, an open fiction sandbox! You'll find some of my
   {% assign story_indices = site.pages | where_exp:"page", "page.path contains '/public/index.md'" %}
   {% for story_index in story_indices %}
     <li>
-      <h3><a href="{{ story_index.url }}">{{ story_index.story_title }}</a></h3>
+      <h3><a href="{{site.baseurl}}/{{ story_index.url }}">{{ story_index.story_title }}</a></h3>
       <p>{{ story_index.summary }}</p>
       <a href="https://github.com/TobbaT/{{ page.path }}">View on GitHub</a>
     </li>
