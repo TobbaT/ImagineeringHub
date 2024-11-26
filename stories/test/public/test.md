@@ -1,1 +1,4 @@
+---
+weirdvariablenamenoconflict: test
+---
 TEST
