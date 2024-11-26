@@ -1,2 +1,5 @@
+---
+silename: test
+---
 
 INDEX
