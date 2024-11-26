@@ -13,7 +13,7 @@ Welcome to the Imagineering Hub, an open fiction sandbox! You'll find some of my
     <li>
       <h3><a href="{{ story_index.url | prepend: site.baseurl }}">{{ story_index.story_title }}</a></h3>
       <p>{{ story_index.summary }}</p>
-      <a href="{{ page.path | prepend: site.githuburl }}">View on GitHub</a>
+      <a href="{{ story_index.url | prepend: site.githuburl }}">View on GitHub</a>
     </li>
   {% endfor %}
 </ul>
